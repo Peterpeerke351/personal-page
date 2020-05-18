@@ -1,0 +1,230 @@
+:root {
+  --kleur1: white;
+  --kleur2: #4e9188;
+  --mainColor:#434e52;
+}
+
+.body {
+  background-color: var(--kleur2);
+}
+
+.img {
+  background-color: var(--kleur2);
+  height: 900px;
+}
+
+.div3 {
+    background-color: var(--kleur2);
+}
+
+.text-top {
+  position: absolute;
+  background-color: transparent;
+  text-align: center;
+  top: 35%;
+  width: 100%;
+}
+
+.footer {
+  background-color: #1f4e5f;
+  bottom: 0;
+  color: var(--kleur1);
+  height: 60px;
+  left: 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.navbar-inner {
+  background: transparent;
+}
+
+.nav-link {
+  color: var(--kleur1);
+}
+
+.three {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+H1 {
+  color: var(--kleur1);
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 80px;
+}
+
+H4 {
+  color: var(--kleur1);
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+}
+
+/* Contact page ---> */
+#Cpbody {
+  background-color: var(--kleur2);
+  color: var(--kleur1);
+  font-weight: bold;
+}
+
+hr.CpTopline {
+  border: 2px solid var(--kleur1);
+  border-radius: 5%;
+  width:50%;
+}
+
+#Cptopbox {
+  padding-top: 100px;
+}
+
+
+#CpTopTekst {
+  color: var(--kleur1);
+  text-align: center;
+}
+
+.CpLeftboxmain {
+  width: 50%;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  float:left;
+}
+
+.CpLeftbox {
+  width: 34%;
+  text-align: left;
+  float:left;
+}
+
+.CpRightboxmain {
+  width: 50%;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  float:left;
+}
+
+.CpRightbox {
+  width: 34%;
+  text-align: left;
+  float:left;
+}
+
+.CpBottom {
+  padding-top: 100px;
+  padding-bottom: 550px;
+}
+
+.Emty {
+  width: 33%;
+  float:left;
+}
+/*form*/
+.Labelbox {
+  padding-top: 20px;
+}
+
+#fname {
+width: 100%;
+background-color: var(--kleur2);
+border-bottom: 2px solid var(--kleur1);
+border-top: none;
+border-right: none;
+border-left: none;
+color: var(--kleur1);
+/*background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+background-size: 15px;
+background-position: right;
+background-repeat: no-repeat;*/
+}
+
+#Email {
+width: 100%;
+background-color: var(--kleur2);
+border-bottom: 2px solid var(--kleur1);
+border-top: none;
+border-right: none;
+border-left: none;
+}
+
+#subject {
+  width: 100%;
+  background-color: var(--kleur2);
+  border-bottom: 2px solid var(--kleur1);
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  height: 170px;
+}
+
+::placeholder {
+  color: var(--kleur1);
+}
+
+/*navbar*/
+/* Add a color background color to the top navigation */
+.topnav {
+  background-color: var(--kleur2);
+  overflow: hidden;
+  font-weight: bold;
+}
+.material-icons {
+  font-size: 48px !important;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: var(--kleur1);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: var(--kleur1);
+  color: var(--kleur2);
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .Emty {
+    visibility: hidden;
+    width: 0;
+  }
+
+.CpLeftboxmain {
+  width: 100%;
+}
+
+.CpLeftbox {
+  width: 100%;
+  text-align: center;
+}
+
+.CpRightboxmain {
+  width: 100%;
+}
+
+.CpRightbox {
+  width: 70%;
+}
+
+#Cptopbox {
+  padding: 10px;
+}
+#CpTopTekst{
+  padding-top: 20px;
+}
+}

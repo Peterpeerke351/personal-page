@@ -5,20 +5,23 @@
 
 <body>
 
-<?php include 'Include/Navbar.php';?>
+<?php include 'Include/Navbar2.php';?>
 
   <!--top container-->
+
   <div class="text-top">
     <h1>I'm Peter</h1>
     <h4>A webdesigner <br>
         And developer</h4>
   </div>
 
+<div class="img">
   <!--img top-->
-  <img src="2.jpg" width="100%" height="960px">
+  <!--<img src="2.jpg" class="img-fluid topimg">-->
+</div>
 
   <!--bottom container-->
-  <div class="row div3 three">
+  <!--<div class="row div3 three">
     <div class="col-sm">
       <img src="comp.png" alt="computer" width="200px;">
       test Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed facilisis metus. Sed faucibus justo sed mi consequat, non mattis odio auctor. Nunc et mollis augue. Donec non scelerisque ipsum. Quisque justo ante, tempus vel sagittis at, interdum vitae nisi. Cras euismod eleifend felis, quis commodo elit commodo eget. Curabitur nulla nunc, gravida a commodo a, malesuada sed nisi. Phasellus fermentum efficitur nibh, nec commodo tellus lobortis ac. Vestibulum purus metus, iaculis vitae mauris nec, pellentesque suscipit ligula. Donec aliquam ante diam, et condimentum urna elementum sit amet. Fusce id lacinia dui, at ultricies odio.
@@ -30,7 +33,7 @@
       Etiam aliquam ultricies eros eget luctus. Mauris ut odio tortor. Vestibulum molestie tortor vel nunc placerat pretium. Pellentesque velit justo, dignissim vel ultrices quis, vulputate nec nunc. Nulla sit amet ante et diam porta rhoncus. Suspendisse ligula urna, vulputate eu mollis in, ornare non orci. Quisque eu mauris sit amet erat suscipit iaculis non a urna. Ut et purus nec lorem ultricies lacinia egestas et ante.
     </div>
   </div>
-
+-->
 <?php include 'Include/Footer.php';?>
 
 
@@ -38,6 +41,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/javascript.js"></script>
 
 </body>
 </html>
